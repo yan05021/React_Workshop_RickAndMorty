@@ -1,9 +1,13 @@
-function App() {
-  return (
-    <div className="app">
+import Header from "./component/globals/Header";
+import Router from "./component/navigation/router";
 
-    </div>
-  )
+function App() {
+    return (
+        <div className="app">
+            <Header />
+            <Router />
+        </div>
+    );
 }
 
-export default App
+export default App;
